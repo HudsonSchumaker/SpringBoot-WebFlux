@@ -13,7 +13,11 @@ class WebfluxApplication {
 	fun run(repository: TodoRepository) = CommandLineRunner {
 
 		repository.save(
-			ToDo("Test")
+			ToDo("Create an app")
+		).subscribe()
+
+		repository.save(
+			ToDo("Test an app")
 		).subscribe()
 	}
 }
