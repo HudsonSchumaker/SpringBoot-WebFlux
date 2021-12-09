@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono
 
 /**
  *
- * @author hudson.schumaker
+ * @author hudson schumaker
  */
 @Service
 class TodoServiceImpl(private val repository: TodoRepository): TodoService {
