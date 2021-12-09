@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono
 
 /**
  *
- * @author hudson.schumaker
+ * @author hudson schumaker
  */
 @RestController
 @RequestMapping("/todo")
