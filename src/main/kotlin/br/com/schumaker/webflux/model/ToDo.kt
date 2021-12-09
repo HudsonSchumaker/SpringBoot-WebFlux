@@ -7,7 +7,7 @@ import java.util.*
 
 /**
  *
- * @author hudson.schumaker
+ * @author hudson schumaker
  */
 @Document
 class ToDo {
