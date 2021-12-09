@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository
 
 /**
  *
- * @author hudson.schumaker
+ * @author hudson schumaker
  */
 @Repository
 interface TodoRepository: ReactiveMongoRepository<ToDo, String> {
